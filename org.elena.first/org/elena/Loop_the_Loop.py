@@ -39,6 +39,12 @@ nummer = int(raw_input ())
 print "Here's your table:"
 for looper in range (1, 11):
     print looper, "x ", nummer, "= ", nummer * looper
+    
+print "Which multiplication table would you like?"
+nummer = int(raw_input())
+for immer in range (1, 11):
+    while immer == '1, 2, 3, 4, 5, 6, 7, 8, 9, 10':
+        print nummer, "x ", immer, "= ", nummer * immer
 
 print "Which multiplication table would you like?"
 nummer = int(raw_input ())
@@ -47,15 +53,3 @@ high = int(raw_input())
 print "Here's your table:"
 for looper in range (1, high):
     print looper, "x ", nummer, "= ", nummer * looper
-
-
-
-
-
-
-
-
-
-
-
-    
